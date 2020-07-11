@@ -1,0 +1,19 @@
+{
+    "configurations": [{
+        "name": "MinGW",
+        "intelliSenseMode": "gcc-x86",
+        "compilerPath": "C:/Program Files (x86)/KFlearning/mingw32/bin/g++.exe",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "C:/Program Files (x86)/KFlearning/mingw32/include/**",
+            "C:/Program Files (x86)/KFlearning/mingw32/i686-w64-mingw32/include/**"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE"
+        ],
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+    }],
+    "version": 4
+}
