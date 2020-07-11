@@ -1,0 +1,396 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+  }
+
+header{
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    top : 0;
+    z-index: 10;
+}
+
+.topnav{
+    overflow: hidden;
+}
+.nav-right{
+    float: right;
+}
+
+.nav-right a{
+    float: left;
+    color: white;
+    padding : 25px 25px;
+}
+
+.topnav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+.nav-left{
+    float: left;
+    padding : 25px 25px;
+}
+
+.nav-left h2{
+    color : white;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding : 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper{
+    margin-top: 30px;
+    padding :  180px 0 100px 0;
+    background-image: url(https://dimzdim.github.io/IMKDB/gambar/karoke.jpg);
+    background-position: right 50px;
+    background-color: white;
+    background-origin: border-box;
+    background-size: 27%;
+    background-repeat: no-repeat;
+}
+
+.top-wrapper p{
+    text-align: left;
+    padding: 20px 0px;}
+
+.middle{
+    margin-top: 30px;
+    padding-top: 100px;
+    background-color: palegreen;
+    background-origin: border-box;
+    background-size: 27%;
+}
+
+.middle h1{
+    text-align: center;
+    color : black;
+    padding-bottom: 50px;
+}
+
+.data{
+    padding-bottom: 100px;
+}
+
+.pesankangen{
+    background-color: black;
+    color: white;
+}
+
+.pesankangen h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.update{
+    padding-top: 70px;
+    padding-bottom: 27px;
+    background-color: rgb(167, 6, 119);
+}
+
+.update h1,p{
+    text-align: center;
+    padding : 20px;
+    color : white
+}
+
+.update input{
+    padding : 10px;  
+    font-size: 15px;
+    border : 1px solid #dee7ec;
+    text-align: center;
+}
+
+.update select{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.aktifitas h1{
+    padding-top : 30px;
+    text-align: center;
+    color : black;
+    padding-bottom: 50px;
+}
+
+.data{
+    padding-bottom: 100px;
+}
+
+ .top-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+} 
+ 
+.top-wrapper p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+} 
+
+.btn-wrapper {
+    text-align: left;
+    padding : 0px 100px;
+    margin: 20px 0px;
+}
+  
+.signup {
+    background-color: blue;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    opacity: 1;
+    background-color: rgba(187, 177, 189, 0.739);
+}
+
+.fitur-wrapper{
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5d5d60;
+  }
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.headingabout{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    padding-right : 100px;
+    color: #5f5d60;
+    background-color: rgb(0, 0, 0);
+}
+
+.headingabout h2{
+    float: right;
+    font-weight: normal;
+    color: white;
+}
+
+.headingabout p{
+    float: right;
+    font-weight: normal;
+    color: white;   
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+
+.fitur {
+    float: left;
+    width: 33%;
+}
+
+.fitur-icon {
+    position: relative;
+}
+
+.fitur-icon p{
+    padding-top:0px;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size : 30px;
+    padding-left : 18px;
+}
+
+.fitur-icon img{
+    height : 200px;
+    width : 200px;
+}
+
+.deskripsi {
+    width: 90%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+  }
+
+.login-left{
+    float : left;
+    padding : 120px 340px 245px 120px;
+    font-size: 18px;
+    background: rgb(236, 238, 130);
+}
+
+.login-left p{
+    width: 20px;
+    padding-left : 0px;
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+
+.login-left h2{
+    padding-bottom: 25px;
+}
+
+.login-left input{
+    padding : 10px;  
+    font-size: 15px;
+    border : 1px solid #dee7ec;
+  }
+
+
+.register-right{
+    float : right;
+    padding : 120px 150px 65px 310px;
+    font-size: 18px;
+    background: rgb(255, 80, 80);
+}
+
+.register-right p{
+    padding-top : 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+.register-right h2{
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+.register-right input{
+    padding : 10px;  
+    font-size: 15px;
+    border : 1px solid #dee7ec;
+    text-align: right;
+  }
+
+  .register-right select{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+  .registerbutton{
+    float : right;
+    padding-bottom: 25px;
+  }
+  
+  .submitbutton{
+    float : left;
+    padding-bottom: 25px;
+  }
+  
+  .footer {
+    background-color: #053c61;
+    color: rgb(175, 17, 17);
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+
+
+  .kontak {
+    padding-top: 100px;
+    padding-left : 100px;
+    background-color: black;
+  }
+  
+  /* Tambahkan CSS untuk tags <input> dan <textarea> */
+  .kontak input,textarea{
+    width : 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding : 20px;
+    font-size: 18px;
+    border : 1px solid #dee7ec;
+  }
+  
+  .kontak p{
+      text-align: left;
+  }
+
+  .kontak h3{
+        color: white;
+        font-size: 36px;
+        padding-bottom: 30px;
+        padding-top: 600px;
+  }
+  /* Tambahkan CSS untuk contact-submit */
+  .contact-submit{
+    background-color : #dee7ec;
+    color : #889eab;
+  }
+
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 100px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 19px;
+  }
